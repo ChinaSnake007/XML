@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="./books.xsl" type="text/xsl"?>
+<?xml-stylesheet href="book.xsl" type="text/xsl"?>
 <books>
     <book>
         <ID>1</ID>
-        <name>Æ½·²µÄÊÀ½ç</name>
-        <author>Â·Ò£</author>
+        <name>å¹³å‡¡çš„ä¸–ç•Œ</name>
+        <author>è·¯é¥</author>
         <translator>yangsen</translator>
-        <sort>Ð¡Ëµ</sort>
-        <publisher>ÈËÃñ³ö°æÉç</publisher>
-        <edition>2014</edition>
-        <date>2021Äê3ÔÂ</date>
-        <pages>115</pages>
-        <price>25</price>
-        <ISBN>0</ISBN>
-        <state>¿É½è</state>
-        <introduction>Æ½·²µÄÊÀ½ç£¬Æ½·²µÄÄãÎÒ</introduction>
     </book>
     <book>
         <ID>1</ID>
-        <name>Æ½·²µÄÊÀ½ç</name>
-        <author>Â·Ò£</author>
+        <name>å¹³å‡¡çš„ä¸–ç•Œ</name>
+        <author>è·¯é¥</author>
         <translator>yangsen</translator>
-        <sort>Ð¡Ëµ</sort>
-        <publisher>ÈËÃñ³ö°æÉç</publisher>
-        <edition>2014</edition>
-        <date>2021Äê3ÔÂ</date>
-        <pages>115</pages>
-        <price>25</price>
-        <ISBN>0</ISBN>
-        <state>¿É½è</state>
-        <introduction>Æ½·²µÄÊÀ½ç£¬Æ½·²µÄÄãÎÒ</introduction>
     </book>
     <book>
         <ID>1</ID>
-        <name>Æ½·²µÄÊÀ½ç</name>
-        <author>Â·Ò£</author>
+        <name>å¹³å‡¡çš„ä¸–ç•Œ</name>
+        <author>è·¯é¥</author>
         <translator>yangsen</translator>
-        <sort>Ð¡Ëµ</sort>
-        <publisher>ÈËÃñ³ö°æÉç</publisher>
-        <edition>2014</edition>
-        <date>2021Äê3ÔÂ</date>
-        <pages>115</pages>
-        <price>25</price>
-        <ISBN>0</ISBN>
-        <state>¿É½è</state>
-        <introduction>Æ½·²µÄÊÀ½ç£¬Æ½·²µÄÄãÎÒ</introduction>
     </book>
 
 </books>

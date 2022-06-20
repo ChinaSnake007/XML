@@ -3,19 +3,19 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title> È±æ–≈œ¢</title>
+                <title>‰π¶Êú¨‰ø°ÊÅØ</title>
             </head>
             <body>
-                <h2 align="center">—ß…˙≥…º®µ•</h2>
+                <h2 align="center">Â≠¶ÁîüÊàêÁª©Âçï</h2>
                 <xsl:apply-templates match="books"/>
-                <!-- ’‚∏ˆbooksŒ™∏˘ƒø¬º -->
+                <!-- Ëøô‰∏™books‰∏∫Ê†πÁõÆÂΩï -->
             </body>
         </html>
     </xsl:template>
     <xsl:template match="books">
         <table border="1" align="center">
             <xsl:for-each select="book">
-            <!-- ’‚∏ˆbookŒ™◊”‘™Àÿ -->
+            <!-- Ëøô‰∏™book‰∏∫Â≠êÂÖÉÁ¥† -->
                 <tr>
                     <td><xsl:value-of select="ID"/></td>
                     <td><xsl:value-of select="name"/></td>
