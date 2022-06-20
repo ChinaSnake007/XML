@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!ELEMENT book (author+,publisher)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+]>
+<book>
+    <author>杨森</author>
+    <publisher>杨森出版社</publisher>
+</book>
