@@ -8,7 +8,7 @@
     </xsd:complexType>
 </xsd:element>
 
-<xsd:complexType name="bookType"> 
+<xsd:complexType name="bookType">
     <xsd:sequence>
         <xsd:element name="BookName" type="xsd:string"/>
         <xsd:element name="Author" maxOccurs="unbounded">
@@ -42,6 +42,7 @@
         <xsd:element name="InStoreTime" type="xsd:date"/>
     </xsd:sequence>
     <xsd:attribute name="ISBN" type="xsd:string"/>
+    <!-- 属性的名字和类型 -->
 </xsd:complexType>
 
 
