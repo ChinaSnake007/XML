@@ -1,0 +1,33 @@
+BookName
+{
+    display: block;
+    font-family: "楷体";
+    font-size: 22pt;
+    color: blue;
+    background-color:yellow;
+    top: 10;
+    left: 150
+}
+AuthorName,Gender,Provice,City,AddressDetail{
+    color:yellow;
+    display: line;
+    font-family: "宋体";
+    font-style: italic;
+    font-size: 18pt;
+}
+PublisherName{
+    font-family: "楷体";
+    display:block;
+    font-size: 20pt;
+    color: blue;
+    background-color:yellow;
+    width: 100;
+    height: 160;
+}
+Price,BookNumber,PublisheDate,CatalogueDateTime,InStoreTime{
+    display:list-item;
+    font-family:"Times New Roman";
+    font-style: italic;
+    font-weight: bold;
+    color:yellow;
+}

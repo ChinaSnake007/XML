@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xsd:element name="Library">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="Book" type="bookType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:complexType name="bookType">
+    <xsd:sequence>
+        <xsd:element name="BookName" type="xsd:string"/>
+        <xsd:element name="Author" maxOccurs="unbounded">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="AuthorName" type="xsd:string"/>
+                    <xsd:element name="Gender" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Publisher">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="PublisherName" type="xsd:string"/>
+                    <xsd:element name="PublisherAddress">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="Provice" type="xsd:string"/>
+                                <xsd:element name="City" type="xsd:string"/>
+                                <xsd:element name="AddressDetail" type="xsd:string"/>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Price" type="xsd:decimal"/>
+        <xsd:element name="BookNumber" type="xsd:integer"/>
+        <xsd:element name="PublishDate" type="xsd:date"/>
+        <xsd:element name="CatalogueDateTime" type="xsd:date"/>
+        <xsd:element name="InStoreTime" type="xsd:date"/>
+    </xsd:sequence>
+    <xsd:attribute name="ISBN" type="xsd:string"/>
+</xsd:complexType>
+
+
+</xsd:schema>

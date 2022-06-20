@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./1.xsd">
+    <Book ISBN="978-5685-8648-4">
+        <BookName>软件开发与项目管理</BookName>
+        <Author>
+            <AuthorName>杨森</AuthorName>
+            <Gender>男</Gender>
+        </Author>
+        <Author>
+            <AuthorName>郭永怀</AuthorName>
+            <Gender>男</Gender>
+        </Author>
+        <Publisher>
+            <PublisherName>高等教育出版社</PublisherName>
+            <PublisherAddress>
+                <Provice>北京市</Provice>
+                <City>西城区</City>
+                <AddressDetail>北京市西城区德外大街4号</AddressDetail>
+            </PublisherAddress>
+        </Publisher>
+        <Price>33.8</Price>
+        <BookNumber>20</BookNumber>
+        <PublishDate>2015-04-01</PublishDate>
+        <CatalogueDateTime>2015-04-01</CatalogueDateTime>
+        <InStoreTime>2015-04-01</InStoreTime>
+    </Book>
+    <Book ISBN="978-5685-8648-4">
+        <BookName>软件开发与项目管理</BookName>
+        <Author>
+            <AuthorName>杨森</AuthorName>
+            <Gender>男</Gender>
+        </Author>
+        <Author>
+            <AuthorName>郭永怀</AuthorName>
+            <Gender>男</Gender>
+        </Author>
+        <Publisher>
+            <PublisherName>高等教育出版社</PublisherName>
+            <PublisherAddress>
+                <Provice>北京市</Provice>
+                <City>西城区</City>
+                <AddressDetail>北京市西城区德外大街4号</AddressDetail>
+            </PublisherAddress>
+        </Publisher>
+        <Price>33.8</Price>
+        <BookNumber>20</BookNumber>
+        <PublishDate>2015-04-01</PublishDate>
+        <CatalogueDateTime>2015-04-01</CatalogueDateTime>
+        <InStoreTime>2015-04-01</InStoreTime>
+    </Book>
+</Library>

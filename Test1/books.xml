@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <ID>1</ID>
+        <name>平凡的世界</name>
+        <author>路遥</author>
+        <translator>yangsen</translator>
+        <sort>小说</sort>
+        <publisher>人民出版社</publisher>
+        <edition>2014</edition>
+        <date>2021年3月</date>
+        <pages>115</pages>
+        <price>25</price>
+        <ISBN>0</ISBN>
+        <state>可借</state>
+        <introduction>平凡的世界，平凡的你我</introduction>
+    </book>
+    <book>
+        <ID>1</ID>
+        <name>平凡的世界</name>
+        <author>路遥</author>
+        <translator>yangsen</translator>
+        <sort>小说</sort>
+        <publisher>人民出版社</publisher>
+        <edition>2014</edition>
+        <date>2021年3月</date>
+        <pages>115</pages>
+        <price>25</price>
+        <ISBN>0</ISBN>
+        <state>可借</state>
+        <introduction>平凡的世界，平凡的你我</introduction>
+    </book>
+    <book>
+        <ID>1</ID>
+        <name>平凡的世界</name>
+        <author>路遥</author>
+        <translator>yangsen</translator>
+        <sort>小说</sort>
+        <publisher>人民出版社</publisher>
+        <edition>2014</edition>
+        <date>2021年3月</date>
+        <pages>115</pages>
+        <price>25</price>
+        <ISBN>0</ISBN>
+        <state>可借</state>
+        <introduction>平凡的世界，平凡的你我</introduction>
+    </book>
+
+</books>

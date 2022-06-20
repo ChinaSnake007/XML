@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "orders.dtd">
+<orders>
+    <order>
+        <orderInformation OrderID="sdffe"/>
+
+        <ConsigneeInformation>
+            <Consignee>杨森</Consignee>
+            <Address>连云港市山河镇</Address>
+            <FixedPhone>86466371</FixedPhone>
+            <MobilePhone>18151662007</MobilePhone>
+            <Email>1805828047@qq.com</Email>
+        </ConsigneeInformation>
+        <PayAndDelivery/>
+        <BillInformation>
+            <BillTitle>1</BillTitle>
+            <BillContent>支付信息</BillContent>
+        </BillInformation>
+        <ProductList>
+            <Product>
+                <ProductID>1</ProductID>
+                <ProductName>牙刷</ProductName>
+                <ProductPrice>25</ProductPrice>
+                <ProductNumber>2</ProductNumber>
+            </Product>
+            <Product>
+                <ProductID>2</ProductID>
+                <ProductName>牙膏</ProductName>
+                <ProductPrice>15</ProductPrice>
+                <ProductNumber>3</ProductNumber>
+            </Product>
+        </ProductList>
+        <PaymentInformation>
+            <ProductAmount>25</ProductAmount>
+            <Freight>25</Freight>
+            <Cashback>5</Cashback>
+            <OrderAmount>50</OrderAmount>
+        </PaymentInformation>
+    </order>
+</orders>
