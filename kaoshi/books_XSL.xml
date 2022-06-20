@@ -5,19 +5,25 @@
         <ID>1</ID>
         <name>平凡的世界</name>
         <author>路遥</author>
+        <sex>男</sex>
         <translator>yangsen</translator>
+        <price>35</price>
     </book>
     <book>
         <ID>1</ID>
         <name>平凡的世界</name>
         <author>路遥</author>
+        <sex>女</sex>
         <translator>yangsen</translator>
+        <price>50</price>
     </book>
     <book>
         <ID>1</ID>
         <name>平凡的世界</name>
         <author>路遥</author>
+        <sex>男</sex>
         <translator>yangsen</translator>
+        <price>60</price>
     </book>
 
 </books>

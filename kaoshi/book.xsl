@@ -21,6 +21,20 @@
                     <td><xsl:value-of select="name"/></td>
                     <td><xsl:value-of select="author"/></td>
                     <td><xsl:value-of select="translator"/></td>
+                    <td><xsl:value-of select="sex"/></td>
+                    <td>
+                        <xsl:choose>
+                            <xsl:when test="price &lt; 40">
+                                书便宜就在这买了
+                            </xsl:when>
+                            <xsl:when test="price &lt; 50">
+                                小贵，再考虑
+                            </xsl:when>
+                            <xsl:otherwise>
+                                不买了
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </td>>
                 </tr>
             </xsl:for-each>
         </table>
